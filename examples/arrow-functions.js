@@ -11,7 +11,5 @@ function binomio(a, b){
   return (a * a) + (2 * a * b) + (b * b);
 }
 
-
 // Another example where arrow functions are optimal is for sorting. In example:
-
 var sortedPrices = arrayOfPrices.sort( (a, b) => a - b);
